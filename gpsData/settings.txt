@@ -1,0 +1,17 @@
+#Path to the data collection service
+!post http://example.com:8080/CarAssistant/assistant
+
+#Path to the login service
+!login http://example.com:8080/CarAssistant/assistant/login
+
+#Path to the register service
+!register http://example.com:8080/CarAssistant/assistant/register
+
+#Path to the rules calculation service
+!rules http://example.com:8080/CarAssistant/assistant/getRules
+
+#Path to the path finding service
+!path http://example.com:8080/CarAssistant/assistant/getPath
+
+#Path to the GeoCode service
+!geocode http://example.com:8080/CarAssistant/assistant/geoCode
